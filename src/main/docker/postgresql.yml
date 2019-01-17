@@ -1,0 +1,11 @@
+version: '2'
+services:
+    feitrist-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/FeiTrist/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=FeiTrist
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

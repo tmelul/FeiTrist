@@ -1,0 +1,36 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.tmelul",
+            "nativeLanguage": "fr"
+        },
+        "jhipsterVersion": "5.7.2",
+        "applicationType": "monolith",
+        "baseName": "FeiTrist",
+        "packageName": "com.tmelul",
+        "packageFolder": "com/tmelul",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "hazelcast",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "postgresql",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "gradle",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "OGM1OGNkNDA3MmM4NWU2Y2Y0MDlkZjMyNTNmNmE2OTc5ZGViNzE3MDAwNTI5Zjg5NmVkMTM0YjE4MjViOWYyZTczMDQxNDNiZDczODU3MjUxNDJjYzc2ZmE1YWM5ODU1YWY5MmU2YTJlM2QzYjNjYTA4ZTA2YjU3YTNjN2MzMDY=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["gatling", "cucumber", "protractor"],
+        "jhiPrefix": "jhi",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "fr",
+        "languages": ["fr", "zh-cn", "en"]
+    }
+}
