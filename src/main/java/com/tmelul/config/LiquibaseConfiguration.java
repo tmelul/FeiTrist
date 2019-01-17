@@ -17,7 +17,7 @@ import io.github.jhipster.config.liquibase.AsyncSpringLiquibase;
 import liquibase.integration.spring.SpringLiquibase;
 
 @Configuration
-public class LiquibaseConfiguration {
+public class lsLiquibaseConfiguration {
 
     private final Logger log = LoggerFactory.getLogger(LiquibaseConfiguration.class);
 
